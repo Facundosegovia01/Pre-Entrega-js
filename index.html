@@ -1,20 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<!doctype html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-600">
+  <h1 class="text-5xl font-bold underline text-center
+   mt-10 p-10 text-white">
+   Calculadora de prestamos 
+  </h1>
 
-<main>
-    <h1>Buenas!, Esta es la primer pre-entrega Coderhouse JavaScript</h1>
-</main>
+  <div class="flex gap-10 justify-center ">
+    <label for="number" class="text-center bg-red-600 p-2 rounded-md text-white text-bold text-xl" > Ingresa el monto</label>
+    <div class="flex justify-center items-center">
+     <input type="number" class="border-2 bg-purple-200 p-2 rounded-md">
+    </div>
+    <label for="number" class="text-center bg-red-600 p-2 rounded-md text-white text-bold text-xl" > Ingresa el numero de cuotas</label>
+    <div class="flex justify-center items-center">
+     <input type="number" class="border-2 bg-purple-200 p-2 rounded-md ">
+    </div>
+    <label for="number" class="text-center bg-red-600 p-2 rounded-md text-white text-bold text-xl" > Ingresa el interes Anual sin %</label>
+    <div class="flex justify-center items-center">
+     <input type="number" class="border-2 bg-purple-200 p-2 rounded-md">
+    </div>
 
+  </div>
+  <div class="flex items-center justify-center mt-16 ">
+    <button class="border-4 rounded-md border-purple-200 p-10">Calcular</button>
+  </div> 
 
-    <script src="js/index.js"></script>
+  
+
+  <script src="js/index.js"></script>
 </body>
 </html>
